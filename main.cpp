@@ -10,7 +10,6 @@ bool func1(int a)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		Sleep(1);
 		if (i > a)
 			return true;
 
@@ -23,7 +22,6 @@ bool func2(int c)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		Sleep(1);
 		if (i > c)
 			return true;
 	}
@@ -34,7 +32,6 @@ bool func3(int b)
 {
 	for (int i = 10; i > 3; i--)
 	{	
-		Sleep(1);
 		if (i < b)
 			return true;
 	}
